@@ -1,0 +1,1 @@
+docker run --rm  -v ${HOME}:${HOME} -it buildroot:18.04 bash
