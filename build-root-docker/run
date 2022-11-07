@@ -1,1 +1,1 @@
-docker run --rm  -v ${HOME}:${HOME} -it buildroot:18.04 bash
+docker run --rm  -v ${HOME}:${HOME} -it MangoPi-MQ-Pro-D1 bash
