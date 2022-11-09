@@ -6,8 +6,6 @@
 #
 FROM ubuntu:18.04
 RUN apt-get -y update
-RUN apt-get -y install xterm
-RUN apt-get -y install xauth
 RUN apt-get -y install sudo
 
 RUN apt -y install rsync wget unzip build-essential git bc swig libncurses-dev \
@@ -26,4 +24,4 @@ RUN export uid=1000 gid=1000 && \
 USER developer
 ENV HOME /home/developer
 
-CMD xterm
+CMD bash
